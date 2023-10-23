@@ -44,9 +44,11 @@ public class Goods {
         System.out.println("New quantity: " + quantity);
     }*/
 
-    public void Value() {
-
-        double value = price * quantity;
-        System.out.println("Value all goods = " + value);
+    
+     double Value() {  
+        return price * quantity;
+         }
+    public void printValue() {  
+        System.out.println("Value all goods = " + Value());
     }
 }
